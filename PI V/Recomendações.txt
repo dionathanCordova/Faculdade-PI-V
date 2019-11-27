@@ -1,0 +1,10 @@
+1 - Fa�a o dump do arquivo sql que esta no diretorio SQL
+2 - Abra o arqiovo database.php que esta localizano no diretorio application/config/database.php
+	as configura��es de acesso ao banco s�o informadas nas linhas 78, 79, 80 e 81
+3 - abra o diretorio raiz "PI V" no terminal e execute o comando : php -S localhost:8080
+4 - No browser acesse a url localhost:8080
+5 - Os dados de acesso ao sistema s�o:
+	login = admin@camboriu.sc.gov.br
+	senha = admin
+	
+	

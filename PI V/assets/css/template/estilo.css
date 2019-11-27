@@ -1,0 +1,212 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+html, body {height:100%;}
+
+/* inicio estilo header */
+header{
+    order: 2 1 unset;
+}
+
+header nav#menu{
+    background-color:#009a3d;
+}
+
+header nav#menu div#links a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.2vmin;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+header nav#menu div#links ul a:hover{
+    background: #FF8800;
+}
+/* ============== fim ================= */
+
+
+/* inicio estilo do corpo */
+main{
+    min-height:100%;
+    margin: auto;
+    width: 173vmin;
+    /* background-color: #f9f9f9; */
+    /* background: rebeccapurple; */
+}
+
+#bandeira{
+    margin-left: 5vmin;
+    margin-top: 5vmin;
+    width: 70vmin;
+}
+/* ================ fim =====================
+
+inicio estilo das tabelas */
+div#div_btns{
+    text-align: end;
+    margin-right: 2vmin;
+    /* background: rebeccapurple; */
+}
+
+div#div_btns #bnt_cadastro{
+    padding: 2vmin;
+    background-color: #239e23;
+    color: white;
+    font-size: 2vmin;
+    border-radius: 4px;
+}
+
+div#div_btns #bnt_cadastro:hover{
+    cursor: pointer;
+}
+form#pesquisas{
+    /* background: rebeccapurple; */
+    margin-left: 3vmin;
+    width: 60vmin;
+}
+
+form#pesquisas input{
+    margin-left: 0vmin;
+    /* text-align: initial;  */
+}
+
+legend.legend{
+    margin-top: 7vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: #747070;
+}
+
+
+
+/* table{
+    width: 168vmin;
+    margin-left: 3vmin;
+    font-size: 2vmin;
+} */
+
+table td{
+    text-align: center;
+    font-size: 2vmin;
+}
+/* 
+tr:nth-child(even) {background: #FFF}
+tr:nth-child(odd) {background: #EEE} */
+
+/* estilo da pagina de edição de data de retorno do veiculo */
+main div.editar_data {
+    visibility: hidden;
+}
+
+main div.editar_data form#form_data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:end;
+    height: 5vmin;
+    margin-top: -7.5vmin;
+    margin-left: 80vmin;
+}
+
+main div.editar_data form#form_data label{
+     color: #3f3d3d;
+    line-height: 5vmin;
+     margin-right: 0vmin; 
+}
+
+
+main div.editar_data form#form_data input{
+    font-size: 3vmin;
+    margin-left: 0vmin;
+    color: #3f3d3d;
+}
+
+main div.editar_data form#form_data button{
+    width: 10vmin;
+    height: 6vmin;
+    font-size: 2vmin;
+    margin-left: -12vmin;
+    
+}
+
+/* estilo de pagina de retorno de veiculos */
+#retornar{
+    background: rebeccapurple;
+    width:10vmin; 
+    height: 3vmin;
+    margin-top: 0vmin;
+}
+#retornar button{
+    height: 3vmin;
+    font-size: 2vmin;
+}
+
+/* ================= end ================== */
+main div#menu{
+    width: 100vw;
+    height: 11vmin;
+    background-color: green;
+}
+
+main p{
+    /* background: rgb(204, 231, 188); */
+    text-align: center;
+    color: #FF8800;
+    font-size: 2vmin;   
+}
+
+
+#image-add-diaria{
+    width: 3vmin;
+}
+
+                        /* PAGINACAO  */
+                        /* ## CSS ## */
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 60px 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.active{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+div.paginacao {text-align: center;}
+
+
+
+/* =============== END ================== */
+
+
+footer{
+    background-color: #e98b30;
+    height: 9.5vmin;
+    text-align: center;
+    line-height: 8vmin;
+    color: #FFF;
+}

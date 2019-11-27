@@ -1,0 +1,138 @@
+main{
+    /* background: rebeccapurple; */
+    width: 100vmin;
+    margin: auto;
+}
+
+main form{
+    width: 40vmin;
+    margin: auto;
+    margin-top: 4vmin;
+    height: 40vh;
+    text-align: center;
+}
+
+main form input{
+    margin: auto;
+    text-align: center;
+    width: 45vmin;
+    height: 4vmin;
+    border-radius: 1px;
+    font-size: 2vmin;
+}
+
+main form #bt_login{
+    background-color: green;
+    color: white;
+    font-size: 3vmin;
+    padding: 1vmin;
+    width: 45vmin;
+    border-radius: 5px;
+}
+main img{
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 15vmin;
+    width: 30vmin;
+}
+
+
+
+/* stilo pra celular */
+@media only screen and (max-width: 550px) and (min-width: 350px) {
+   
+    main{
+        /* background: rebeccapurple; */
+        width: 100%;
+        margin: auto;
+        margin-top: 20%;
+    }
+    
+    main form{
+        margin: auto;
+        width: 80vmin;
+        margin-top: 4vmin;
+        height: 40vh;
+        text-align: center;
+    }
+    
+   main form input{
+        margin: auto;
+        text-align: center;
+        width: 75vmin;
+        height: 10vmin;
+        border-radius: 10px;
+        font-size: 5vmin;
+    }
+    main form #bt_login{
+        background-color: green;
+        color: white;
+        font-size: 6vmin;
+        padding: 1vmin;
+        width: 75vmin;
+        height: 10vmin;
+        border-radius: 10px;
+    }
+    main img{
+        text-align: center;
+        margin-left: 28%;
+        margin-top: 15vmin;
+        width: 50vmin;
+    }
+    
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+    body{
+        background:red;
+    }
+} */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 526px) and (max-width: 800.98px) {
+    
+    body{
+        /* background-color: gold; */
+    }
+
+    main{
+        /* background: rebeccapurple; */
+        width: 100%;
+        margin: auto;
+        margin-top: -3%;
+    }
+    
+    main form{
+        margin: auto;
+        width: 100%;
+        margin-top: 4vmin;
+        height: 40vh;
+        text-align: center;
+    }
+    
+   main form input{
+        margin: auto;
+        text-align: center;
+        width: 75vmin;
+        height: 10vmin;
+        border-radius: 10px;
+        font-size: 5vmin;
+    }
+    main form #bt_login{
+        background-color: green;
+        color: white;
+        font-size: 6vmin;
+        padding: 1vmin;
+        width: 75vmin;
+        height: 10vmin;
+        border-radius: 10px;
+    }
+    main img{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 15vmin;
+        width: 50vmin;
+    }
+}
