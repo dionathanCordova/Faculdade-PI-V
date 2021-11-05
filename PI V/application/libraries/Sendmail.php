@@ -19,7 +19,7 @@ class Sendmail {
         $mail->SMTPSecure = 'tls';  
         $mail->SMTPAutoTLS = false; // Define se, por padrão, será utilizado TLS - Mantenha o valor "false"
         $mail->Username = 'defaltern@gmail.com'; // Conta de email existente e ativa em seu domínio
-        $mail->Password = 'fodassegmail@'; // Senha da sua conta de email
+        $mail->Password = ''; // Senha da sua conta de email
         
         // DADOS DO REMETENTE
         $mail->Sender = "defaltern@gmail.com"; // Conta de email existente e ativa em seu domínio
